@@ -6807,6 +6807,16 @@ a.ui-button:active,
 	background-image:url(../images/icons/icon-paper-plane.png);
 }
 
+.map-area {
+  display: flex;
+  justify-content: center;
+  z-index: 1; }
+  .map-area iframe {
+    height: 580px;
+    width: 90%;
+    justify-content: center;
+    border: none; }
+
 .location-section .map-column{
 	position: relative;
 }
